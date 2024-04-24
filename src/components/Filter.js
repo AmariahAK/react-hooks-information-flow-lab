@@ -9,6 +9,7 @@ function Filter({ onCategoryChange }) {
 
   return (
     <div className="Filter">
+      {/* Render a select dropdown for category filtering */}
       <select name="filter" onChange={handleCategoryChange}>
         <option value="All">Filter by category</option>
         <option value="Produce">Produce</option>
